@@ -1,7 +1,7 @@
 module MegaLottery
   class Drawing
     def draw
-      5.times.map { single_draw }
+      MegaLottery.configuration.drawing_count.times.map { single_draw }
     end
     
     def single_draw

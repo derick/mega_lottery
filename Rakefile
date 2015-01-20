@@ -7,4 +7,4 @@ task :default => :spec
 
 task :console do
   exec "irb -r mega_lottery -I ./lib"
-end
+end 
